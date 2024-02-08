@@ -10,7 +10,7 @@ Each URL has:
 - A path that identifies the requested file
 - An optional query string with extra data the page might need
 
-![Structure of an URL](../img/http_requests/http_request.jpg "HTTP Request")
+![Structure of an URL](http_request.jpg "HTTP Request")
 
 When a query string is added to the end of a URL each piece of data it sends is like a variable; it has a:
 

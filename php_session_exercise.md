@@ -1,4 +1,4 @@
-# PHP 1 Übung
+# PHP 1 Übung 2
 **Session Exercise**
 
 Ziel: In dieser Übung lernt ihr den grundlegenden Umgang mit PHP-Sessions . Ihr werdet Werte in einem Skript speichern und in einem anderen Skript darauf zugreifen.  

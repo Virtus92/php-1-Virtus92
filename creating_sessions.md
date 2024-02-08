@@ -9,17 +9,17 @@ If you add data to the **$_SESSION** superglobal array, when the page has finish
 When collecting data from the **$_SESSION** superglobal array, the function must be called before any content is sent to the browser because it sends an HTTP header. It must also be called before the page tries to get session data, as it transfers data from the session file to the $_SESSION superglobal array.
 
 ```php
-    session_start();
+session_start();
 ```
 The syntax to add data to the array is the same as it is for any associative array. The key should describe the data that the element is being used to store:
 ```php
-    $_SESSION['name'] = 'Ivy';
-    $_SESSION['age'] = 27;
+$_SESSION['name'] = 'Ivy';
+$_SESSION['age'] = 27;
 ```
 Use the null-coalescing operator in case values are missing
 ```php
-    $name = $_SESSION['username'] ?? null;
-    $age = $_SESSION['age'] ?? null;
+$name = $_SESSION['username'] ?? null;
+$age = $_SESSION['age'] ?? null;
 ```
 | Function | Description |
 |-------|-------------|
@@ -33,12 +33,12 @@ Use the null-coalescing operator in case values are missing
 
 ```php
 <?php
-    session_start();                      // Create/resume session
-    $counter = $_SESSION['counter'] ?? 0; // Get data
-    $counter = $counter + 1;              // Counter + 1
-    $_SESSION['counter'] = $counter;      // Update session
+session_start();                      // Create/resume session
+$counter = $_SESSION['counter'] ?? 0; // Get data
+$counter = $counter + 1;              // Counter + 1
+$_SESSION['counter'] = $counter;      // Update session
 
-    $message = 'Page views: ' . $counter; // Message
+$message = 'Page views: ' . $counter; // Message
 ?>
 <?php include 'includes/header.php'; ?> 
 <h1>Welcome</h1>

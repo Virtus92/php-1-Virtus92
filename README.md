@@ -13,3 +13,10 @@
    - [Creating Sessions](creating_sessions.md)
    - [Closing/ Destroying Sessions](deleting_destroying_sessions.md)
    - [A simple Login Example](simple_login_logout_example.md)
+  
+## Exercises
+- [Form Exercise](php_form_exercise.md)
+- [Session Exercise](php_session_exercise.md)
+
+## Kompetenzcheck
+[Forms and Sessions](php_form_sessions_kompetenzcheck.md)

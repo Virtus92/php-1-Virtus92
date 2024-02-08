@@ -2,7 +2,7 @@
 
 When data is added to a query string at the end of the URL, the PHP interpreter adds that data to a superglobal array called $_GET so that the PHP code in the page can access it.
 
-![Structure of an URL](http_requests/http_request_query_string.jpg "HTTP Request")
+![Structure of an URL](http_requests/http_request_query_string.jpg)
 
 At the end of the URL, there is a query string that holds two key/value pairs which are sent to the server when the visitor clicks on the link.
 

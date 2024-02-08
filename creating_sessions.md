@@ -33,6 +33,7 @@ $age = $_SESSION['age'] ?? null;
 
 ```php
 <?php
+//sessions.php -> current file
 session_start();                      // Create/resume session
 $counter = $_SESSION['counter'] ?? 0; // Get data
 $counter = $counter + 1;              // Counter + 1

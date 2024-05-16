@@ -1,6 +1,6 @@
 # Contents
 1. Basics
-   - [PHP Basics](php_basics.md)
+   - [PHP Util](php_basics.md)
    - [Absolute and relative Paths](absolute_relative_paths.md)
    - [Error Messages in PHP](php_error_messages.md)
 2. HTTP Requests and forms

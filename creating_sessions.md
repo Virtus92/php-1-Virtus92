@@ -1,5 +1,5 @@
 ## How to create and access sessions
-Every page of a site that uses sessions should call **session_start()**.
+Every sub-page of a site that uses sessions should call **session_start()**.
 If the user does not have a session, it starts one for them; if they do, it gets the session data and puts it in the $_SESSION superglobal array.
 
 When a visitor first requests a page that calls **session start()**, a new session ID, session cookie, and session file are created.
@@ -11,7 +11,7 @@ When collecting data from the **$_SESSION** superglobal array, the function must
 ```php
 session_start();
 ```
-The syntax to add data to the array is the same as it is for any associative array. The key should describe the data that the element is being used to store:
+The syntax to add data to the array is the same as for any associative array. The key should describe the data that the element is being used to store:
 ```php
 $_SESSION['name'] = 'Ivy';
 $_SESSION['age'] = 27;
@@ -26,7 +26,7 @@ $age = $_SESSION['age'] ?? null;
 | session_start() | Create new session, or get data from existing session. |
 | session_set_cookie_params() | Settings used to create the session cookie. |
 | session_get_cookie_params() | Returns an array holding the arguments used to set the cookie. |
-| session_regenerate_id() | Create a new session ID, and updates the session file and cookie. |
+| session_regenerate_id() | Create a new session ID, and update the session file and cookie. |
 | session_destroy | Deletes the session file from the server. |
 
 ### Session Example

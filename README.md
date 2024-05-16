@@ -2,8 +2,8 @@
 1. Basics
    - [What is PHP?](php_history.md)
    - [PHP Util](php_basics.md)
-   - [Absolute and relative Paths](absolute_relative_paths.md)
-   - [Error Messages in PHP](php_error_messages.md)
+      - [Absolute and relative Paths](absolute_relative_paths.md)
+      - [Error Messages in PHP](php_error_messages.md)
 3. HTTP Requests and forms
    - [HTTP Requests and Responses](http_requests_responses.md)
    - [Overview POST and GET](post_get_overview.md)

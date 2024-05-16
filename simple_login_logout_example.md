@@ -1,4 +1,5 @@
 # Basic Login 
+This example will show you a simple Login/ Logout Feature.
 ## session.php
 
 ```php

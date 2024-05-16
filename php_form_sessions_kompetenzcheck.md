@@ -6,7 +6,7 @@ Das Ziel des Komptenzchecks ist es, den Umgang mit PHP Sessions zu üben. Sessio
 
 **Anforderungen:**
 1. Erstelle ein Anmeldeformular:  
-    - Erstelle ein HTML-Formular mit Feldern für Benutzername und Passwort.
+    - Erstelle ein HTML-Formular mit Feldern für Benutzername und Passwort (index.php).
     - Füge einen Submit-Button hinzu, um das Formular abzusenden.
 2. Erstelle eine Datei namens "login.php":  
     - In der Datei "login.php" schreibe PHP-Code, um den Anmeldeprozess zu verarbeiten.  
@@ -32,12 +32,12 @@ Das Ziel des Komptenzchecks ist es, den Umgang mit PHP Sessions zu üben. Sessio
 ---
 **EN:** 
 
-The goal of this competency check is to practice working with PHP sessions. Sessions are used to store and retrieve data across multiple requests from the same user. In this exercise, you will create a simple login system using sessions.  
+The goal of this competency check is to practice working with PHP sessions. Sessions store and retrieve data across multiple requests from the same user. In this exercise, you will create a simple login system using sessions.  
 
 **Instructions:**
 
 1. Create a login form:  
-    - Create an HTML form with fields for username and password.  
+    - Create an HTML form with fields for username and password (index.php).  
     - Add a submit button to submit the form.  
 2. Create a file named "login.php":  
     - In the "login.php" file, write PHP code to handle the login process.  

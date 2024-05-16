@@ -2,7 +2,7 @@ Before getting started with PHP you need the following:
  - Download and install XAMPP https://www.youtube.com/watch?v=GRqw0pBwewY
  - Download and install VSCode or PHPStorm (IDE)
  - Start the Apache Webserver 
- - Find the htdocs Folder inside the xampp-folder (C:\xampp\htdocs)
+ - Find the htdocs folder inside the xampp-folder (C:\xampp\htdocs)
  - All your php files/ folders have to be saved inside the htdocs folder
    ___
 # Contents

@@ -28,6 +28,7 @@ $age = $_SESSION['age'] ?? null;
 | session_get_cookie_params() | Returns an array holding the arguments used to set the cookie. |
 | session_regenerate_id() | Create a new session ID, and update the session file and cookie. |
 | session_destroy | Deletes the session file from the server. |
+| session_unset |  Frees all session variables currently registered, however does not destroy the session itself |
 
 ### Session Example
 

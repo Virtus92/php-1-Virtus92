@@ -14,7 +14,7 @@ Each error message contains four pieces of data that help you locate the problem
 - The file that contained the error
 - The line number where the error was found
 
-The illustration below shows the structure of an error in PHP:
+**The illustration below shows the structure of an error in PHP:**
 
 ![Structure of PHP Error Messages](php_error_level.jpg "PHP Error Levels")
 

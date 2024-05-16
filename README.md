@@ -1,5 +1,5 @@
 Before getting started with PHP you need the following:
- - Download and install XAMPP [https://www.youtube.com/watch?v=GRqw0pBwewY]
+ - Download and install XAMPP https://www.youtube.com/watch?v=GRqw0pBwewY
  - Download and install VSCode or 
 # Contents
 1. Basics

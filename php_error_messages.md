@@ -14,6 +14,7 @@ Each error message contains four pieces of data that help you locate the problem
 - The file that contained the error
 - The line number where the error was found
 
+![Structure of an URL](php_error_level.jpg "PHP Error Levels")
 
 | Level | Description |
 |-------|-------------|

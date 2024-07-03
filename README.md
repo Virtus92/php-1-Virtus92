@@ -22,9 +22,17 @@ Before getting started with PHP you need the following:
    - [Closing/ Destroying Sessions](deleting_destroying_sessions.md)
    - [A simple Login Example](simple_login_logout_example.md)
   
-## Exercises
+## Exercise
 - [Form Exercise](php_form_exercise.md)
 - [Session Exercise](php_session_exercise.md)
 
 ## Kompetenzcheck
 [Forms and Sessions](php_form_sessions_kompetenzcheck.md)
+
+## Links and additional resources
+- [PHP Introduction](https://www.geeksforgeeks.org/php-introduction/)
+- [PHP Grundlagen](https://www.learn-php.org/)
+- [PHP Form Handling](https://www.w3schools.com/php/php_forms.asp)
+- [PHP Sessions](https://www.geeksforgeeks.org/php-sessions/)
+
+

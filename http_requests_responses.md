@@ -40,3 +40,11 @@ The server also sends back two pieces of data to indicate whether the request wa
 - A three-digit status code for software to interpret
 
 For successful requests, the status code is 200 and the reason phrase is OK. If a server cannot find a file, the status code is 404 and the reason phrase is Not found. When browsing the web, you may have seen a screen like this, indicating that a page was not found.
+
+### HTTP response status codes
+
+- 100 - 199: Informational responses
+- 200 - 299: Successful responses, e.g. 200 OK
+- 300 - 399: Redirect Messages, e.g. 301 Moved Permanently, 307 Temporary Redirect
+- 400 - 499: Client error responses, e.g. 404 Page not found, 403 Forbidden 
+- 500 - 599: Server error responses, e.g. 500 Internal Server Error, 503 Bad Gateway

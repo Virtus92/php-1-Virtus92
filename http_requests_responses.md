@@ -26,6 +26,7 @@ The headers hold data the server may find helpful and they are also similar to a
 - Name that describes what data is being sent. The name is the same each time a URL is used.
 - Value for the piece of data.
 
+
 ## Server-Side
 
 When the web server receives a request for a PHP pum, it responds to that request by:
@@ -48,3 +49,5 @@ For successful requests, the status code is 200 and the reason phrase is OK. If 
 - 300 - 399: Redirect Messages, e.g. 301 Moved Permanently, 307 Temporary Redirect
 - 400 - 499: Client error responses, e.g. 404 Page not found, 403 Forbidden 
 - 500 - 599: Server error responses, e.g. 500 Internal Server Error, 503 Bad Gateway
+
+![HTTP Response von GoogleL](screenshot_google.PNG "HTTP Response von Google")

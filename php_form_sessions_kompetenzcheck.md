@@ -13,14 +13,14 @@ Das Ziel des Komptenzchecks ist es, den Umgang mit PHP Sessions zu üben. Sessio
     - Führe eine grundlegende Validierung durch, um sicherzustellen, dass die Felder nicht leer sind.  
     - Vergleiche den Benutzernamen und das Passwort mit einem vordefinierten Satz von Anmeldeinformationen (vorab festgelegte, statische Werte).  
     - Wenn die Anmeldeinformationen übereinstimmen, speichere den Benutzernamen in einer Session-Variablen ab unter dem Key 'username'.  
-    - Leite den Benutzer bei erfolgreicher Anmeldung auf eine "dashboard.php"-Seite um (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php).  
+    - Leite den Benutzer bei erfolgreicher Anmeldung auf eine "dashboard.php"-Seite um (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php ).  
     - Wenn die Anmeldeinformationen nicht übereinstimmen, zeige eine Fehlermeldung an und biete die Möglichkeit, es erneut zu versuchen.  
 3. Erstelle eine Datei namens "dashboard.php":  
     - In der Datei "dashboard.php" schreibe PHP-Code, um das Dashboard des Benutzers anzuzeigen.  
     - Starte die Session     
     - Überprüfe, ob die Session-Variable `$_SESSION['username']` gesetzt und nicht leer ist.  
     - Wenn die Session-Variable gesetzt ist, zeige eine Begrüßungsnachricht mit dem Benutzernamen an.  
-    - Wenn die Session-Variable nicht gesetzt ist, leite den Benutzer zurück zur Anmeldeseite um. (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php)  
+    - Wenn die Session-Variable nicht gesetzt ist, leite den Benutzer zurück zur Anmeldeseite um. (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php )  
 4. Teste deine Lösung:  
     - Öffne die Anmeldeseite in einem Browser.  
     - Gib gültige Anmeldedaten ein und sende das Formular ab.  

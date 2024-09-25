@@ -20,13 +20,18 @@ Das Ziel des Komptenzchecks ist es, den Umgang mit PHP Sessions zu üben. Sessio
     - Starte die Session     
     - Überprüfe, ob die Session-Variable `$_SESSION['username']` gesetzt und nicht leer ist.  
     - Wenn die Session-Variable gesetzt ist, zeige eine Begrüßungsnachricht mit dem Benutzernamen an.  
-    - Wenn die Session-Variable nicht gesetzt ist, leite den Benutzer zurück zur Anmeldeseite um. (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php )  
-4. Teste deine Lösung:  
+    - Wenn die Session-Variable nicht gesetzt ist, leite den Benutzer zurück zur Anmeldeseite um. (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php )
+    - Füge die Option zum Ausloggen hinzu, Tipp: erstelle ein neues PHP-Script "logout.php" und einen Link zu diesem Script <a href="logout.php">Logout</a>
+    - In der Datei "logout.php" lösche die aktuelle Session und leite die Benutzer auf die "index.php" zurück.
+4. User Logout
+   - Füge eine Option zum Ausloggen hinzu, Tipp: erstelle ein neues PHP-Script "logout.php" und setze in der "dashboard.php" einen Link zu diesem Script <a href="logout.php">Logout</a>
+    - In der Datei "logout.php": implementiere das Löschen der aktuellen Session und leite die User zurück zur "index.php"
+5. Teste deine Lösung:  
     - Öffne die Anmeldeseite in einem Browser.  
     - Gib gültige Anmeldedaten ein und sende das Formular ab.  
     - Überprüfe, ob du auf die Dashboard-Seite umgeleitet wirst und die Begrüßungsnachricht angezeigt wird.  
     - Versuche auf die Dashboard-Seite zuzugreifen, ohne dich anzumelden, und überprüfe, ob du zur Anmeldeseite zurückgeleitet wirst.  
-5. Optional: Passe den PHP-Code an, um zusätzliche Funktionen einzubauen:  
+6. Optional: Passe den PHP-Code an, um zusätzliche Funktionen einzubauen:  
     - Implementiere eine Abmeldefunktion, die die Session zerstört und den Benutzer zur Anmeldeseite umleitet.  
     - Speichere zusätzliche Benutzerinformation  
 ---
@@ -52,11 +57,13 @@ The goal of this competency check is to practice working with PHP sessions. Sess
     - Check if the session variable `$_SESSION['username']` is set and not empty.  
     - If the session variable is set, display a welcome message with the username.  
     - If the session variable is not set, redirect the user back to the login page (use the header() function for redirection,  https://www.php.net/manual/en/function.header.php ).
-4. Test your solution:  
+4. User Logout:
+   - Add an option for the user to log out. Tip: create a new PHP Script "logout.php" and add a link <a href="logout.php">Logout</a> to the "logout.php" on the dashboard page ("dashboard.php")
+   - In the "logout.php" file delete the session and redirect the user to the file "index.php"
+5. Test your solution:  
     - Open the login page in a browser.  
     - Enter valid login credentials and submit the form.  
     - Verify if you are redirected to the dashboard page and the welcome message is displayed.  
     - Try accessing the dashboard page without logging in and verify if you are redirected back to the login page.  
-5. Optional: Customize the PHP code to add additional features:  
-    - Implement a logout function that destroys the session and redirects the user to the login page.  
+6. Optional: Customize the PHP code to add additional features:  
     - Store additional user information.  

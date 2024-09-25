@@ -21,10 +21,8 @@ Das Ziel des Komptenzchecks ist es, den Umgang mit PHP Sessions zu üben. Sessio
     - Überprüfe, ob die Session-Variable `$_SESSION['username']` gesetzt und nicht leer ist.  
     - Wenn die Session-Variable gesetzt ist, zeige eine Begrüßungsnachricht mit dem Benutzernamen an.  
     - Wenn die Session-Variable nicht gesetzt ist, leite den Benutzer zurück zur Anmeldeseite um. (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php )
-    - Füge die Option zum Ausloggen hinzu, Tipp: erstelle ein neues PHP-Script "logout.php" und einen Link zu diesem Script <a href="logout.php">Logout</a>
-    - In der Datei "logout.php" lösche die aktuelle Session und leite die Benutzer auf die "index.php" zurück.
 4. User Logout
-   - Füge eine Option zum Ausloggen hinzu, Tipp: erstelle ein neues PHP-Script "logout.php" und setze in der "dashboard.php" einen Link zu diesem Script <a href="logout.php">Logout</a>
+   - Füge eine Option zum Ausloggen hinzu, Tipp: erstelle ein neues PHP-Script "logout.php" und setze in der "dashboard.php" einen Link zu diesem Script ```html<a href="logout.php">Logout</a>```
     - In der Datei "logout.php": implementiere das Löschen der aktuellen Session und leite die User zurück zur "index.php"
 5. Teste deine Lösung:  
     - Öffne die Anmeldeseite in einem Browser.  

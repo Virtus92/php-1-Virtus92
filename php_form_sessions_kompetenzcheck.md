@@ -22,7 +22,7 @@ Das Ziel des Komptenzchecks ist es, den Umgang mit PHP Sessions zu üben. Sessio
     - Wenn die Session-Variable gesetzt ist, zeige eine Begrüßungsnachricht mit dem Benutzernamen an.  
     - Wenn die Session-Variable nicht gesetzt ist, leite den Benutzer zurück zur Anmeldeseite um. (Weiterleitung mit header() https://www.php.net/manual/en/function.header.php )
 4. User Logout
-   - Füge eine Option zum Ausloggen hinzu, Tipp: erstelle ein neues PHP-Script "logout.php" und setze in der "dashboard.php" einen Link zu diesem Script ```html<a href="logout.php">Logout</a>```
+   - Füge eine Option zum Ausloggen hinzu, Tipp: erstelle ein neues PHP-Script "logout.php" und setze in der "dashboard.php" einen Link zu diesem Script ```<a href="logout.php">Logout</a>```
     - In der Datei "logout.php": implementiere das Löschen der aktuellen Session und leite die User zurück zur "index.php"
 5. Teste deine Lösung:  
     - Öffne die Anmeldeseite in einem Browser.  
@@ -56,7 +56,7 @@ The goal of this competency check is to practice working with PHP sessions. Sess
     - If the session variable is set, display a welcome message with the username.  
     - If the session variable is not set, redirect the user back to the login page (use the header() function for redirection,  https://www.php.net/manual/en/function.header.php ).
 4. User Logout:
-   - Add an option for the user to log out. Tip: create a new PHP Script "logout.php" and add a link <a href="logout.php">Logout</a> to the "logout.php" on the dashboard page ("dashboard.php")
+   - Add an option for the user to log out. Tip: create a new PHP Script "logout.php" and add a link ```<a href="logout.php">Logout</a>``` to the "logout.php" on the dashboard page ("dashboard.php")
    - In the "logout.php" file delete the session and redirect the user to the file "index.php"
 5. Test your solution:  
     - Open the login page in a browser.  
